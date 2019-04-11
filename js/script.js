@@ -90,6 +90,10 @@ document.addEventListener('DOMContentLoaded', function() {
         board.addColumn(column);
     });
 
+
+// CZY MOGLBYS MNIE NAPROWADZIC CO POWODUJE ZE TWORZY MI SIE TYLKO PIERWSZA KOLUMNA(todo)?????
+
+
     // CREATING COLUMNS
     var todoColumn = new Column('To do');
     var doingColumn = new Column('Doing');
